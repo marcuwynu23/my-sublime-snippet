@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+
+app = wx.App()
+MainFrame(None,-1,"WX Application",(400,400))
+app.MainLoop()
+
+]]></content>
+	<tabTrigger>WXPython-setup-App</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

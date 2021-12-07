@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+editText = (EditText) findViewById(R.id.editText);
+]]></content>
+	<tabTrigger>ANDROID-addEditText</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

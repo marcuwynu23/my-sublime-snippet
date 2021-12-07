@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+addTextChangedListener(new TextWatcher(){
+	@Override
+	public void beforeTextChanged(CharSequence s,int start, int count, int after){}
+	@Override
+	public void onTextChanged(CharSequence s,int start, int count, int after){}
+	@Override
+	public void afterTextChanged(Editable ed){}
+});
+]]></content>
+	<tabTrigger>ANDROID-textChanged</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

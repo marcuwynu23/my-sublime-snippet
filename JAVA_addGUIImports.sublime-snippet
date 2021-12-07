@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+import java.awt.border.*;
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>JAVA-addGUIimports</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.java</scope>
+</snippet>

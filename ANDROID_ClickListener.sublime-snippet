@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+setOnClickListener(new View.OnClickListener(){
+	@Override
+	public void onClick(View v){
+
+	}
+});
+]]></content>
+	<tabTrigger>ANDROID-onClick</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

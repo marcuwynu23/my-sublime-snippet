@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/*
+#add this to the to the headers
+
+#include <thread>
+#include <mutex>
+
+#add to implement
+std::mutex mx;
+	std::thread t{[&]{
+		std::lock_guard<std::mutex> {mx};
+		//add code here..
+	}};
+
+#add this to join thread
+t.join();
+
+*/
+]]></content>
+	<tabTrigger>CCP-sychronized</tabTrigger> -->
+</snippet>

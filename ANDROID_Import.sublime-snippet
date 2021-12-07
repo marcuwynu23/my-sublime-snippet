@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+import android.app.*;
+import android.widget.*;
+import android.view.View;
+import android.content.Content;
+]]></content>
+	<tabTrigger>ANDROID-addImport</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<Button
+        android:id="@+id/btn"
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+]]></content>
+	<tabTrigger>ANDROID-addButtonXML</tabTrigger>
+<!-- 	<scope>source.xml</scope>
+ -->
+</snippet>

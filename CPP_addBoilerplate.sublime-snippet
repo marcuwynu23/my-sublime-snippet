@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+#ifndef __MYHEADER_H__
+#define __MYHEADER_H__
+#ifdef __cplusplus
+
+extern "C"{
+#endif
+	/*
+		add code here..
+
+	*/
+#ifdef __cplusplus
+}
+#endif
+#endif 
+
+]]></content>
+	<tabTrigger>CCP-boilerplate</tabTrigger>
+</snippet>

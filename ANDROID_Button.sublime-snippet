@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+btn = (Button) findViewById(R.id.btn);
+]]></content>
+	<tabTrigger>ANDROID-addButton</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

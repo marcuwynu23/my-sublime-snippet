@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+class MainFrame(wx.Frame):
+	def __init__(self,parent,id,title,size):
+		wx.Frame.__init__(self,parent,id,title,size)
+		self.SetMenuBarInitial()
+		self.SetBodyInitial()
+
+	def SetMenuBarInitial(self):	
+		menuBar = MenuBar()
+		self.SetMenuBar(menuBar)
+		#add content here..
+
+
+	def SetBodyInitial(self):
+		panel = wx.Panel(self,-1)
+		hbox = wx.BoxSizer()
+
+		rightPanel = RightPanel(panel,-1)
+		leftPanel = LeftPanel(panel,-1)
+
+		hbox.Add(leftPanel,1,wx.EXPAND | wx.ALL,5)
+		hbox.Add(rightPanel,1,wx.EXPAND | wx.ALL,5)
+
+		panel.SetSizer(hbox)
+		self.Centre()
+		self.Show(True)
+
+]]></content>
+	<tabTrigger>WXPython-setup-MainFrame</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

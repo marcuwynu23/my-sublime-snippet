@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+class Panel(wx.Panel):
+	def __init__(self,parent,id):
+		wx.Panel.__init__(self,parent,id,style=wx.BORDER_SIMPLE)
+		#add content here..
+]]></content>
+	<tabTrigger>WXPython-setup-Panel</tabTrigger>
+	<scope>source.python</scope>
+</snippet>

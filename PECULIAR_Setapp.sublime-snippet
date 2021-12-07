@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+private void setAppInit(){
+
+}
+private void setAppComponent(){
+
+}
+private void setAppUI(){
+
+}
+private void setAppEvent(){
+
+}
+]]></content>
+	<tabTrigger>PECULIAR-add-setup-template</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

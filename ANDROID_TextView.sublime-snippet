@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+txtView = (TextView) findViewById(R.id.txtView);
+]]></content>
+	<tabTrigger>ANDROID-addTextView</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

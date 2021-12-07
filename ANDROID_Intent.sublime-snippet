@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Intent i = new Intent(MainActivity.this,Activity1.class);
+startActivity(i);
+]]></content>
+	<tabTrigger>ANDROID-addIntent</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

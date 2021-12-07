@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+new java.awt.event.MouseListener(){
+			public void mouseExited(java.awt.event.MouseEvent ev){
+				//System.out.println("mouseExited");
+			}
+			public void mouseEntered(java.awt.event.MouseEvent ev){
+				//System.out.println("mouseEntered");
+			}
+			public void mouseReleased(java.awt.event.MouseEvent ev){
+				//System.out.println("mouseReleased");
+			}
+			public void mousePressed(java.awt.event.MouseEvent ev){
+				//System.out.println("mousePressed");
+			}
+			public void mouseClicked(java.awt.event.MouseEvent ev){
+				//System.out.println("mouseClicked");
+			}
+			
+		}
+]]></content>
+	<tabTrigger>JAVA_AWT-addMouseListener</tabTrigger>
+	<scope>source.java</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+PRAGMA foreign_keys=OFF;
+BEGIN TRANSACTION;
+-- create query here..
+COMMIT;
+
+]]></content>
+    <tabTrigger>SQLITE3-Create-schema</tabTrigger>
+    <scope>source.sql</scope>
+</snippet>

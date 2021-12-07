@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+new KeyListener(){
+	public void keyReleased(java.awt.event.KeyEvent e){
+		System.out.println(e);
+	}
+	public void keyPressed(java.awt.event.KeyEvent e){
+		int keycode = e.getKeyCode();
+		if (keycode == 33){
+			fontSize++;
+		}else if (keycode == 34){
+			fontSize--;
+		}
+	}
+	public void keyTyped(java.awt.event.KeyEvent e){	
+	}
+}
+]]></content>	
+	<tabTrigger>JAVA_AWT-addKeyListener</tabTrigger>
+	<scope>source.java</scope>
+</snippet>
